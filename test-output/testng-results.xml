@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-20T18:20:39 IST" name="Default suite" finished-at="2023-11-20T18:21:08 IST" duration-ms="28846">
+    <groups>
+    </groups>
+    <test started-at="2023-11-20T18:20:39 IST" name="Default test" finished-at="2023-11-20T18:21:08 IST" duration-ms="28846">
+      <class name="com.xyxbank.tests.HomeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:20:39 IST" name="setUp" finished-at="2023-11-20T18:21:07 IST" duration-ms="27784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testHomeButton()[pri:1, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:07 IST" name="testHomeButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method signature="testCustomerLoginButton()[pri:2, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testCustomerLoginButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerLoginButton -->
+        <test-method signature="testBankManagerLoginButton()[pri:3, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testBankManagerLoginButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankManagerLoginButton -->
+        <test-method signature="testBankName()[pri:4, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testBankName" finished-at="2023-11-20T18:21:08 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankName -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="tearDown" finished-at="2023-11-20T18:21:08 IST" duration-ms="98" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.xyxbank.tests.HomeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

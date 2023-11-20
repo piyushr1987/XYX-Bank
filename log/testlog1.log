@@ -1,0 +1,5 @@
+2023-11-20 18:20:39,784 [main] INFO XYZ Bank - open the chrome browser
+2023-11-20 18:21:08,291 [main] INFO XYZ Bank - home button is displayed on login page
+2023-11-20 18:21:08,323 [main] INFO XYZ Bank - Customer Login Button is displayed on login page
+2023-11-20 18:21:08,360 [main] INFO XYZ Bank - Bank Manager Login Button is displayed on login page
+2023-11-20 18:21:08,392 [main] INFO XYZ Bank - actual and expected name is matched
