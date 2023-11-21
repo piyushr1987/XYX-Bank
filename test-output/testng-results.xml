@@ -1,37 +1,211 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="16" passed="13" failed="3" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-20T18:20:39 IST" name="Default suite" finished-at="2023-11-20T18:21:08 IST" duration-ms="28846">
+  <suite started-at="2023-11-21T18:02:30 IST" name="Default suite" finished-at="2023-11-21T18:02:59 IST" duration-ms="28436">
     <groups>
     </groups>
-    <test started-at="2023-11-20T18:20:39 IST" name="Default test" finished-at="2023-11-20T18:21:08 IST" duration-ms="28846">
-      <class name="com.xyxbank.tests.HomeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:20:39 IST" name="setUp" finished-at="2023-11-20T18:21:07 IST" duration-ms="27784" status="PASS">
+    <test started-at="2023-11-21T18:02:30 IST" name="Default test" finished-at="2023-11-21T18:02:59 IST" duration-ms="28436">
+      <class name="com.xyxbank.tests.CustomerLogin_TransactionsTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:30 IST" name="setUp" finished-at="2023-11-21T18:02:34 IST" duration-ms="3851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testHomeButton()[pri:1, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:07 IST" name="testHomeButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="820" status="PASS">
+        <test-method signature="testCustomerLogin()[pri:1, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:34 IST" name="testCustomerLogin" finished-at="2023-11-21T18:02:35 IST" duration-ms="883" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testHomeButton -->
-        <test-method signature="testCustomerLoginButton()[pri:2, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testCustomerLoginButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="27" status="PASS">
+        </test-method> <!-- testCustomerLogin -->
+        <test-method signature="testCustomerLoginPage()[pri:2, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:35 IST" name="testCustomerLoginPage" finished-at="2023-11-21T18:02:35 IST" duration-ms="139" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.xyxbank.tests.CustomerLogin_TransactionsTest.testCustomerLoginPage(CustomerLogin_TransactionsTest.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCustomerLoginButton -->
-        <test-method signature="testBankManagerLoginButton()[pri:3, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testBankManagerLoginButton" finished-at="2023-11-20T18:21:08 IST" duration-ms="26" status="PASS">
+        </test-method> <!-- testCustomerLoginPage -->
+        <test-method signature="testCustomerName()[pri:3, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:35 IST" name="testCustomerName" finished-at="2023-11-21T18:02:36 IST" duration-ms="409" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBankManagerLoginButton -->
-        <test-method signature="testBankName()[pri:4, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="testBankName" finished-at="2023-11-20T18:21:08 IST" duration-ms="31" status="PASS">
+        </test-method> <!-- testCustomerName -->
+        <test-method signature="testLogin()[pri:4, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:36 IST" name="testLogin" finished-at="2023-11-21T18:02:36 IST" duration-ms="60" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBankName -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.HomeTest@1ca3b418]" started-at="2023-11-20T18:21:08 IST" name="tearDown" finished-at="2023-11-20T18:21:08 IST" duration-ms="98" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method signature="testCustomerAccountPage()[pri:5, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:36 IST" name="testCustomerAccountPage" finished-at="2023-11-21T18:02:36 IST" duration-ms="130" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.xyxbank.tests.CustomerLogin_TransactionsTest.testCustomerAccountPage(CustomerLogin_TransactionsTest.java:86)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerAccountPage -->
+        <test-method signature="testCustomerNameAccountPage()[pri:6, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:36 IST" name="testCustomerNameAccountPage" finished-at="2023-11-21T18:02:36 IST" duration-ms="30" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerNameAccountPage -->
+        <test-method signature="testCustomerAccountNumber()[pri:7, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:36 IST" name="testCustomerAccountNumber" finished-at="2023-11-21T18:02:56 IST" duration-ms="20440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerAccountNumber -->
+        <test-method signature="testCustomerAccountNo()[pri:8, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:56 IST" name="testCustomerAccountNo" finished-at="2023-11-21T18:02:56 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerAccountNo -->
+        <test-method signature="testCustomerAccountBalance()[pri:9, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:56 IST" name="testCustomerAccountBalance" finished-at="2023-11-21T18:02:56 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerAccountBalance -->
+        <test-method signature="testCurrency()[pri:10, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:56 IST" name="testCurrency" finished-at="2023-11-21T18:02:56 IST" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCurrency -->
+        <test-method signature="testTransactions()[pri:11, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:56 IST" name="testTransactions" finished-at="2023-11-21T18:02:56 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactions -->
+        <test-method signature="testTransactionsPage()[pri:12, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:56 IST" name="testTransactionsPage" finished-at="2023-11-21T18:02:57 IST" duration-ms="112" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertTrue(Assert.java:56)
+at org.testng.Assert.assertTrue(Assert.java:66)
+at com.xyxbank.tests.CustomerLogin_TransactionsTest.testTransactionsPage(CustomerLogin_TransactionsTest.java:178)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTransactionsPage -->
+        <test-method signature="testBack()[pri:13, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:57 IST" name="testBack" finished-at="2023-11-21T18:02:58 IST" duration-ms="1849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBack -->
+        <test-method signature="testLogOut()[pri:14, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:58 IST" name="testLogOut" finished-at="2023-11-21T18:02:58 IST" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogOut -->
+        <test-method signature="testHome()[pri:15, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:58 IST" name="testHome" finished-at="2023-11-21T18:02:59 IST" duration-ms="77" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHome -->
+        <test-method signature="testHomePage()[pri:16, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:59 IST" name="testHomePage" finished-at="2023-11-21T18:02:59 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.CustomerLogin_TransactionsTest@3a7442c7]" started-at="2023-11-21T18:02:59 IST" name="tearDown" finished-at="2023-11-21T18:02:59 IST" duration-ms="133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.xyxbank.tests.HomeTest -->
+      </class> <!-- com.xyxbank.tests.CustomerLogin_TransactionsTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

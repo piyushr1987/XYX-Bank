@@ -3,3 +3,45 @@
 2023-11-20 18:21:08,323 [main] INFO XYZ Bank - Customer Login Button is displayed on login page
 2023-11-20 18:21:08,360 [main] INFO XYZ Bank - Bank Manager Login Button is displayed on login page
 2023-11-20 18:21:08,392 [main] INFO XYZ Bank - actual and expected name is matched
+2023-11-21 17:55:03,767 [main] INFO XYZ Bank - open the chrome browser
+2023-11-21 17:55:10,974 [main] INFO XYZ Bank - click on Customer Login
+2023-11-21 17:55:11,972 [main] INFO XYZ Bank - select the customer name
+2023-11-21 17:55:12,377 [main] INFO XYZ Bank - click on login
+2023-11-21 17:55:12,645 [main] INFO XYZ Bank - customer name is displayed on  Account Page 
+2023-11-21 17:55:12,663 [main] INFO XYZ Bank - select the customer account
+2023-11-21 17:55:33,172 [main] INFO XYZ Bank - customer account number is displayed on  Account Page 
+2023-11-21 17:55:33,220 [main] INFO XYZ Bank - customer account balance is displayed on  Account Page 
+2023-11-21 17:55:33,255 [main] INFO XYZ Bank - currency in Rupee is displayed on  Account Page 
+2023-11-21 17:55:33,255 [main] INFO XYZ Bank - click on Transactions
+2023-11-21 17:55:33,476 [main] INFO XYZ Bank - click on back
+2023-11-21 17:55:34,973 [main] INFO XYZ Bank - click on log out
+2023-11-21 17:55:35,095 [main] INFO XYZ Bank - click on home
+2023-11-21 17:55:35,191 [main] INFO XYZ Bank - sucessfully navigate to home Page 
+2023-11-21 18:01:19,587 [main] INFO XYZ Bank - open the chrome browser
+2023-11-21 18:01:24,298 [main] INFO XYZ Bank - click on Customer Login
+2023-11-21 18:01:25,389 [main] INFO XYZ Bank - select the customer name
+2023-11-21 18:01:25,843 [main] INFO XYZ Bank - click on login
+2023-11-21 18:01:26,112 [main] INFO XYZ Bank - customer name is displayed on  Account Page 
+2023-11-21 18:01:26,115 [main] INFO XYZ Bank - select the customer account
+2023-11-21 18:01:46,902 [main] INFO XYZ Bank - customer account number is displayed on  Account Page 
+2023-11-21 18:01:46,960 [main] INFO XYZ Bank - customer account balance is displayed on  Account Page 
+2023-11-21 18:01:47,013 [main] INFO XYZ Bank - currency in Rupee is displayed on  Account Page 
+2023-11-21 18:01:47,017 [main] INFO XYZ Bank - click on Transactions
+2023-11-21 18:01:47,265 [main] INFO XYZ Bank - click on back
+2023-11-21 18:01:49,276 [main] INFO XYZ Bank - click on log out
+2023-11-21 18:01:49,346 [main] INFO XYZ Bank - click on home
+2023-11-21 18:01:49,399 [main] INFO XYZ Bank - sucessfully navigate to home Page 
+2023-11-21 18:02:30,864 [main] INFO XYZ Bank - open the chrome browser
+2023-11-21 18:02:34,635 [main] INFO XYZ Bank - click on Customer Login
+2023-11-21 18:02:35,662 [main] INFO XYZ Bank - select the customer name
+2023-11-21 18:02:36,071 [main] INFO XYZ Bank - click on login
+2023-11-21 18:02:36,295 [main] INFO XYZ Bank - customer name is displayed on  Account Page 
+2023-11-21 18:02:36,299 [main] INFO XYZ Bank - select the customer account
+2023-11-21 18:02:56,775 [main] INFO XYZ Bank - customer account number is displayed on  Account Page 
+2023-11-21 18:02:56,808 [main] INFO XYZ Bank - customer account balance is displayed on  Account Page 
+2023-11-21 18:02:56,851 [main] INFO XYZ Bank - currency in Rupee is displayed on  Account Page 
+2023-11-21 18:02:56,855 [main] INFO XYZ Bank - click on Transactions
+2023-11-21 18:02:57,017 [main] INFO XYZ Bank - click on back
+2023-11-21 18:02:58,867 [main] INFO XYZ Bank - click on log out
+2023-11-21 18:02:58,954 [main] INFO XYZ Bank - click on home
+2023-11-21 18:02:59,043 [main] INFO XYZ Bank - sucessfully navigate to home Page 
