@@ -6,10 +6,8 @@
       <class name="com.xyxbank.tests.CustomerLogin_TransactionsTest">
         <methods>
           <include name="tearDown"/>
+          <include name="testCustomerNameAccountPage"/>
           <include name="setUp"/>
-          <include name="testCustomerLoginPage"/>
-          <include name="testCustomerAccountPage"/>
-          <include name="testTransactionsPage"/>
         </methods>
       </class> <!-- com.xyxbank.tests.CustomerLogin_TransactionsTest -->
     </classes>

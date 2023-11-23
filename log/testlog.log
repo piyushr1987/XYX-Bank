@@ -45,3 +45,34 @@
 2023-11-21 18:02:58,867 - XYZ Bank -INFO - click on log out
 2023-11-21 18:02:58,954 - XYZ Bank -INFO - click on home
 2023-11-21 18:02:59,043 - XYZ Bank -INFO - sucessfully navigate to home Page 
+2023-11-23 16:22:20,311 - XYZ Bank -INFO - open the chrome browser
+2023-11-23 16:52:52,931 - XYZ Bank -INFO - open the chrome browser
+2023-11-23 16:52:57,506 - XYZ Bank -INFO - click on Customer Login
+2023-11-23 16:52:58,867 - XYZ Bank -INFO - Your Name DropDown is displayed on customer page 
+2023-11-23 16:52:58,874 - XYZ Bank -INFO - select the customer name
+2023-11-23 16:52:58,996 - XYZ Bank -INFO - click on login
+2023-11-23 16:52:59,082 - XYZ Bank -INFO - customer name is displayed on  Account Page 
+2023-11-23 16:52:59,088 - XYZ Bank -INFO - select the customer account
+2023-11-23 16:52:59,643 - XYZ Bank -INFO - customer account number is displayed on  Account Page 
+2023-11-23 16:52:59,649 - XYZ Bank -INFO - click on deposit
+2023-11-23 16:52:59,696 - XYZ Bank -INFO - enter the amount
+2023-11-23 16:53:00,241 - XYZ Bank -INFO - click on submit
+2023-11-23 16:53:00,338 - XYZ Bank -INFO - actual and expected message is matched
+2023-11-23 16:53:00,372 - XYZ Bank -INFO - enter deposit amount is matched
+2023-11-23 16:53:00,376 - XYZ Bank -INFO - click on log out
+2023-11-23 16:53:00,445 - XYZ Bank -INFO - click on home
+2023-11-23 16:59:54,563 - XYZ Bank -INFO - open the chrome browser
+2023-11-23 16:59:58,578 - XYZ Bank -INFO - click on Customer Login
+2023-11-23 17:00:00,055 - XYZ Bank -INFO - Your Name DropDown is displayed on customer page 
+2023-11-23 17:00:00,062 - XYZ Bank -INFO - select the customer name
+2023-11-23 17:00:00,174 - XYZ Bank -INFO - click on login
+2023-11-23 17:00:00,250 - XYZ Bank -INFO - customer name is displayed on  Account Page 
+2023-11-23 17:00:00,256 - XYZ Bank -INFO - select the customer account
+2023-11-23 17:00:00,807 - XYZ Bank -INFO - customer account number is displayed on  Account Page 
+2023-11-23 17:00:00,807 - XYZ Bank -INFO - click on deposit
+2023-11-23 17:00:00,849 - XYZ Bank -INFO - enter the amount
+2023-11-23 17:00:01,321 - XYZ Bank -INFO - click on submit
+2023-11-23 17:00:01,396 - XYZ Bank -INFO - actual and expected message is matched
+2023-11-23 17:00:01,426 - XYZ Bank -INFO - enter deposit amount is matched
+2023-11-23 17:00:01,429 - XYZ Bank -INFO - click on log out
+2023-11-23 17:00:01,485 - XYZ Bank -INFO - click on home
