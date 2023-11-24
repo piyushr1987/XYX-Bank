@@ -76,3 +76,18 @@
 2023-11-23 17:00:01,426 [main] INFO XYZ Bank - enter deposit amount is matched
 2023-11-23 17:00:01,429 [main] INFO XYZ Bank - click on log out
 2023-11-23 17:00:01,485 [main] INFO XYZ Bank - click on home
+2023-11-24 17:00:17,453 [main] INFO XYZ Bank - open the chrome browser
+2023-11-24 17:00:22,036 [main] INFO XYZ Bank - click on Customer Login
+2023-11-24 17:00:23,376 [main] INFO XYZ Bank - Your Name DropDown is displayed on customer page 
+2023-11-24 17:00:23,384 [main] INFO XYZ Bank - select the customer name
+2023-11-24 17:00:23,508 [main] INFO XYZ Bank - click on login
+2023-11-24 17:00:23,585 [main] INFO XYZ Bank - customer name is displayed on  Account Page 
+2023-11-24 17:00:23,589 [main] INFO XYZ Bank - select the customer account
+2023-11-24 17:00:24,134 [main] INFO XYZ Bank - currency as Pound is displayed on account page 
+2023-11-24 17:00:24,140 [main] INFO XYZ Bank - click on withdraw
+2023-11-24 17:00:24,181 [main] INFO XYZ Bank - enter the amount
+2023-11-24 17:00:24,710 [main] INFO XYZ Bank - click on submit
+2023-11-24 17:00:24,798 [main] INFO XYZ Bank - actual and expected error message is matched
+2023-11-24 17:00:24,798 [main] INFO XYZ Bank - click on log out
+2023-11-24 17:00:24,872 [main] INFO XYZ Bank - click on home
+2023-11-24 17:00:24,971 [main] INFO XYZ Bank - sucessfully navigate to home page

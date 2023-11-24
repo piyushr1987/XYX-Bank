@@ -2,76 +2,76 @@
 <testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-23T16:59:54 IST" name="Suite" finished-at="2023-11-23T17:00:01 IST" duration-ms="7358">
+  <suite started-at="2023-11-24T17:00:17 IST" name="Default suite" finished-at="2023-11-24T17:00:25 IST" duration-ms="7786">
     <groups>
     </groups>
-    <test started-at="2023-11-23T16:59:54 IST" name="XYZ Bank Test" finished-at="2023-11-23T17:00:01 IST" duration-ms="7358">
-      <class name="com.xyxbank.tests.CustomerLogin_DepositTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T16:59:54 IST" name="setUp" finished-at="2023-11-23T16:59:58 IST" duration-ms="4035" status="PASS">
+    <test started-at="2023-11-24T17:00:17 IST" name="Default test" finished-at="2023-11-24T17:00:25 IST" duration-ms="7786">
+      <class name="com.xyxbank.tests.CustomerLogin_WithdrawTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:17 IST" name="setUp" finished-at="2023-11-24T17:00:22 IST" duration-ms="4664" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testCustomerLogin()[pri:1, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T16:59:58 IST" name="testCustomerLogin" finished-at="2023-11-23T16:59:59 IST" duration-ms="891" status="PASS">
+        <test-method signature="testCustomerLogin()[pri:1, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:22 IST" name="testCustomerLogin" finished-at="2023-11-24T17:00:22 IST" duration-ms="913" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerLogin -->
-        <test-method signature="testYourNameDropDown()[pri:2, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T16:59:59 IST" name="testYourNameDropDown" finished-at="2023-11-23T17:00:00 IST" duration-ms="572" status="PASS">
+        <test-method signature="testYourNameDropDown()[pri:2, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:22 IST" name="testYourNameDropDown" finished-at="2023-11-24T17:00:23 IST" duration-ms="427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testYourNameDropDown -->
-        <test-method signature="testCustomerName()[pri:3, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testCustomerName" finished-at="2023-11-23T17:00:00 IST" duration-ms="109" status="PASS">
+        <test-method signature="testCustomerName()[pri:3, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:23 IST" name="testCustomerName" finished-at="2023-11-24T17:00:23 IST" duration-ms="122" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerName -->
-        <test-method signature="testLogin()[pri:4, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testLogin" finished-at="2023-11-23T17:00:00 IST" duration-ms="43" status="PASS">
+        <test-method signature="testLogin()[pri:4, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:23 IST" name="testLogin" finished-at="2023-11-24T17:00:23 IST" duration-ms="44" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogin -->
-        <test-method signature="testCustomerNameAccountPage()[pri:5, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testCustomerNameAccountPage" finished-at="2023-11-23T17:00:00 IST" duration-ms="30" status="PASS">
+        <test-method signature="testCustomerNameAccountPage()[pri:5, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:23 IST" name="testCustomerNameAccountPage" finished-at="2023-11-24T17:00:23 IST" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerNameAccountPage -->
-        <test-method signature="testCustomerAccountNumber()[pri:6, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testCustomerAccountNumber" finished-at="2023-11-23T17:00:00 IST" duration-ms="528" status="PASS">
+        <test-method signature="testCustomerAccountNumber()[pri:6, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:23 IST" name="testCustomerAccountNumber" finished-at="2023-11-24T17:00:24 IST" duration-ms="523" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCustomerAccountNumber -->
-        <test-method signature="testCustomerAccountNo()[pri:7, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testCustomerAccountNo" finished-at="2023-11-23T17:00:00 IST" duration-ms="26" status="PASS">
+        <test-method signature="testCurrency()[pri:7, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testCurrency" finished-at="2023-11-24T17:00:24 IST" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCustomerAccountNo -->
-        <test-method signature="testDeposit()[pri:8, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testDeposit" finished-at="2023-11-23T17:00:00 IST" duration-ms="39" status="PASS">
+        </test-method> <!-- testCurrency -->
+        <test-method signature="testWithdraw()[pri:8, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testWithdraw" finished-at="2023-11-24T17:00:24 IST" duration-ms="39" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDeposit -->
-        <test-method signature="testAmount()[pri:9, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:00 IST" name="testAmount" finished-at="2023-11-23T17:00:01 IST" duration-ms="473" status="PASS">
+        </test-method> <!-- testWithdraw -->
+        <test-method signature="testAmount()[pri:9, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testAmount" finished-at="2023-11-24T17:00:24 IST" duration-ms="522" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAmount -->
-        <test-method signature="testSubmit()[pri:10, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="testSubmit" finished-at="2023-11-23T17:00:01 IST" duration-ms="49" status="PASS">
+        <test-method signature="testSubmit()[pri:10, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testSubmit" finished-at="2023-11-24T17:00:24 IST" duration-ms="64" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubmit -->
-        <test-method signature="testDepositMessage()[pri:11, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="testDepositMessage" finished-at="2023-11-23T17:00:01 IST" duration-ms="26" status="PASS">
+        <test-method signature="testErrorMessage()[pri:11, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testErrorMessage" finished-at="2023-11-24T17:00:24 IST" duration-ms="26" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testDepositMessage -->
-        <test-method signature="testDepositAmount()[pri:12, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="testDepositAmount" finished-at="2023-11-23T17:00:01 IST" duration-ms="24" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testDepositAmount -->
-        <test-method signature="testLogOut()[pri:13, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="testLogOut" finished-at="2023-11-23T17:00:01 IST" duration-ms="53" status="PASS">
+        </test-method> <!-- testErrorMessage -->
+        <test-method signature="testLogOut()[pri:12, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testLogOut" finished-at="2023-11-24T17:00:24 IST" duration-ms="70" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLogOut -->
-        <test-method signature="testHome()[pri:14, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="testHome" finished-at="2023-11-23T17:00:01 IST" duration-ms="47" status="PASS">
+        <test-method signature="testHome()[pri:13, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testHome" finished-at="2023-11-24T17:00:24 IST" duration-ms="68" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.CustomerLogin_DepositTest@350aac89]" started-at="2023-11-23T17:00:01 IST" name="tearDown" finished-at="2023-11-23T17:00:01 IST" duration-ms="140" status="PASS">
+        <test-method signature="testHomePage()[pri:14, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="testHomePage" finished-at="2023-11-24T17:00:24 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.CustomerLogin_WithdrawTest@5149d738]" started-at="2023-11-24T17:00:24 IST" name="tearDown" finished-at="2023-11-24T17:00:25 IST" duration-ms="129" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.xyxbank.tests.CustomerLogin_DepositTest -->
-    </test> <!-- XYZ Bank Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.xyxbank.tests.CustomerLogin_WithdrawTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
