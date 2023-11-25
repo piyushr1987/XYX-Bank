@@ -91,3 +91,53 @@
 2023-11-24 17:00:24,798 - XYZ Bank -INFO - click on log out
 2023-11-24 17:00:24,872 - XYZ Bank -INFO - click on home
 2023-11-24 17:00:24,971 - XYZ Bank -INFO - sucessfully navigate to home page
+2023-11-25 16:56:21,028 - XYZ Bank -INFO - open the chrome browser
+2023-11-25 16:56:47,818 - XYZ Bank -INFO - click on Bank Manager Login
+2023-11-25 16:56:49,395 - XYZ Bank -INFO - add customer button is displayed on manager page 
+2023-11-25 16:56:49,400 - XYZ Bank -INFO - click on add customer
+2023-11-25 16:56:49,439 - XYZ Bank -INFO - enter the first name
+2023-11-25 16:57:01,842 - XYZ Bank -INFO - enter the last name
+2023-11-25 16:57:01,873 - XYZ Bank -INFO - enter the postal code
+2023-11-25 16:57:01,904 - XYZ Bank -INFO - click on add customer button and accept the alert
+2023-11-25 16:57:01,920 - XYZ Bank -INFO - click on customers
+2023-11-25 16:57:01,951 - XYZ Bank -INFO - click on home
+2023-11-25 16:59:06,198 - XYZ Bank -INFO - open the chrome browser
+2023-11-25 16:59:10,730 - XYZ Bank -INFO - click on Bank Manager Login
+2023-11-25 16:59:11,862 - XYZ Bank -INFO - add customer button is displayed on manager page 
+2023-11-25 16:59:11,872 - XYZ Bank -INFO - click on add customer
+2023-11-25 16:59:11,912 - XYZ Bank -INFO - enter the first name
+2023-11-25 16:59:19,257 - XYZ Bank -INFO - enter the last name
+2023-11-25 16:59:19,274 - XYZ Bank -INFO - enter the postal code
+2023-11-25 16:59:19,299 - XYZ Bank -INFO - click on add customer button and accept the alert
+2023-11-25 16:59:19,305 - XYZ Bank -INFO - click on customers
+2023-11-25 16:59:19,337 - XYZ Bank -INFO - click on home
+2023-11-25 17:02:34,239 - XYZ Bank -INFO - open the chrome browser
+2023-11-25 17:02:37,841 - XYZ Bank -INFO - click on Bank Manager Login
+2023-11-25 17:02:38,620 - XYZ Bank -INFO - add customer button is displayed on manager page 
+2023-11-25 17:02:38,627 - XYZ Bank -INFO - click on add customer
+2023-11-25 17:02:38,677 - XYZ Bank -INFO - enter the first name
+2023-11-25 17:02:58,848 - XYZ Bank -INFO - enter the last name
+2023-11-25 17:03:19,059 - XYZ Bank -INFO - enter the postal code
+2023-11-25 17:03:39,242 - XYZ Bank -INFO - click on add customer button and accept the alert
+2023-11-25 17:03:59,372 - XYZ Bank -INFO - click on customers
+2023-11-25 17:04:39,605 - XYZ Bank -INFO - click on home
+2023-11-25 17:05:56,847 - XYZ Bank -INFO - open the chrome browser
+2023-11-25 17:06:00,457 - XYZ Bank -INFO - click on Bank Manager Login
+2023-11-25 17:06:01,223 - XYZ Bank -INFO - add customer button is displayed on manager page 
+2023-11-25 17:06:01,229 - XYZ Bank -INFO - click on add customer
+2023-11-25 17:06:01,277 - XYZ Bank -INFO - enter the first name
+2023-11-25 17:06:17,276 - XYZ Bank -INFO - enter the last name
+2023-11-25 17:06:17,291 - XYZ Bank -INFO - enter the postal code
+2023-11-25 17:06:17,307 - XYZ Bank -INFO - click on add customer button and accept the alert
+2023-11-25 17:06:17,319 - XYZ Bank -INFO - click on customers
+2023-11-25 17:06:17,351 - XYZ Bank -INFO - click on home
+2023-11-25 17:07:48,545 - XYZ Bank -INFO - open the chrome browser
+2023-11-25 17:07:51,826 - XYZ Bank -INFO - click on Bank Manager Login
+2023-11-25 17:07:52,924 - XYZ Bank -INFO - add customer button is displayed on manager page 
+2023-11-25 17:07:52,931 - XYZ Bank -INFO - click on add customer
+2023-11-25 17:07:52,972 - XYZ Bank -INFO - enter the first name
+2023-11-25 17:08:13,124 - XYZ Bank -INFO - enter the last name
+2023-11-25 17:08:33,253 - XYZ Bank -INFO - enter the postal code
+2023-11-25 17:08:53,403 - XYZ Bank -INFO - click on add customer button and accept the alert
+2023-11-25 17:09:13,525 - XYZ Bank -INFO - click on customers
+2023-11-25 17:09:53,668 - XYZ Bank -INFO - click on home
