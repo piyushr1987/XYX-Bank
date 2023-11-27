@@ -141,3 +141,66 @@
 2023-11-25 17:08:53,403 [main] INFO XYZ Bank - click on add customer button and accept the alert
 2023-11-25 17:09:13,525 [main] INFO XYZ Bank - click on customers
 2023-11-25 17:09:53,668 [main] INFO XYZ Bank - click on home
+2023-11-27 16:13:44,648 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 16:14:09,300 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 16:14:11,916 [main] INFO XYZ Bank - add customer button is displayed on manager page 
+2023-11-27 16:14:11,920 [main] INFO XYZ Bank - click on add customer
+2023-11-27 16:14:11,968 [main] INFO XYZ Bank - enter the first name
+2023-11-27 16:14:32,173 [main] INFO XYZ Bank - enter the last name
+2023-11-27 16:14:34,822 [main] INFO XYZ Bank - enter the postal code
+2023-11-27 16:14:34,851 [main] INFO XYZ Bank - click on add customer button and accept the alert
+2023-11-27 16:14:34,884 [main] INFO XYZ Bank - click on customers
+2023-11-27 16:14:34,919 [main] INFO XYZ Bank - click on home
+2023-11-27 16:55:47,353 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 16:56:11,929 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 16:56:16,180 [main] INFO XYZ Bank - click on open account
+2023-11-27 16:56:16,458 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 16:56:57,207 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 16:56:57,342 [main] INFO XYZ Bank - click on process
+2023-11-27 16:56:57,414 [main] INFO XYZ Bank - click ok and verify message on alert box.
+2023-11-27 16:56:57,476 [main] INFO XYZ Bank - click on home
+2023-11-27 16:58:05,315 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 16:58:30,745 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 16:58:31,574 [main] INFO XYZ Bank - click on open account
+2023-11-27 16:58:31,865 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 16:58:32,383 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 16:58:32,500 [main] INFO XYZ Bank - click on process
+2023-11-27 16:58:32,558 [main] INFO XYZ Bank - click ok and verify message on alert box.
+2023-11-27 16:58:32,619 [main] INFO XYZ Bank - click on home
+2023-11-27 17:07:22,113 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 17:07:47,458 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 17:07:50,469 [main] INFO XYZ Bank - click on open account
+2023-11-27 17:07:50,760 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 17:07:51,328 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 17:07:51,477 [main] INFO XYZ Bank - click on process
+2023-11-27 17:07:51,543 [main] INFO XYZ Bank - click ok and verify message on alert box.
+2023-11-27 17:07:51,606 [main] INFO XYZ Bank - click on home
+2023-11-27 17:09:02,687 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 17:09:29,715 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 17:09:32,319 [main] INFO XYZ Bank - click on open account
+2023-11-27 17:09:32,948 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 17:09:33,735 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 17:09:33,851 [main] INFO XYZ Bank - click on process
+2023-11-27 17:09:33,910 [main] INFO XYZ Bank - click ok and verify message on alert box.
+2023-11-27 17:09:33,958 [main] INFO XYZ Bank - click on home
+2023-11-27 17:10:01,306 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 17:10:27,262 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 17:10:30,085 [main] INFO XYZ Bank - click on open account
+2023-11-27 17:10:30,734 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 17:10:31,517 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 17:10:31,637 [main] INFO XYZ Bank - click on process
+2023-11-27 17:10:31,705 [main] INFO XYZ Bank - click on home
+2023-11-27 17:10:59,377 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 17:11:25,308 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 17:11:29,109 [main] INFO XYZ Bank - click on open account
+2023-11-27 17:11:29,735 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 17:11:30,666 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 17:11:30,832 [main] INFO XYZ Bank - click on process
+2023-11-27 17:11:30,913 [main] INFO XYZ Bank - click on home
+2023-11-27 17:48:27,431 [main] INFO XYZ Bank - open the chrome browser
+2023-11-27 17:48:53,559 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-27 17:48:54,363 [main] INFO XYZ Bank - click on open account
+2023-11-27 17:48:54,881 [main] INFO XYZ Bank - select customer from drop down
+2023-11-27 17:48:55,395 [main] INFO XYZ Bank - select currency from drop down
+2023-11-27 17:48:55,514 [main] INFO XYZ Bank - click on process
+2023-11-27 17:48:55,618 [main] INFO XYZ Bank - click on home

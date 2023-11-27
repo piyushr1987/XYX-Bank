@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>9/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/2/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Nov 25 17:07:48 IST 2023</td>
+<td>Started on:</td><td>Mon Nov 27 17:48:27 IST 2023</td>
 </tr>
-<tr><td>Total time:</td><td>125 seconds (125407 ms)</td>
+<tr><td>Total time:</td><td>28 seconds (28579 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,16 +76,15 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testCustomerName()'><b>testCustomerName</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class=&apos;table table-bordered table-striped&apos;]//tbody/tr[5]/td[1]&quot;}
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testAlertMessage()'><b>testAlertMessage</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
+<td><div><pre>org.openqa.selenium.NoAlertPresentException: no such alert
   (Session info: chrome=119.0.6045.160)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9987325e52a612e16f9e715e08b7d393, findElement {using=xpath, value=//table[@class=&apos;table table-bordered table-striped&apos;]//tbody/tr[5]/td[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64229/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9987325e52a612e16f9e715e08b7d393
+Command: [5857a833c60990107a38c93427b77dfb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61529/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5857a833c60990107a38c93427b77dfb
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -98,15 +97,11 @@ Session ID: 9987325e52a612e16f9e715e08b7d393
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
-	at com.xyxbank.pages.BankManagerLoginPage.validateCustomerName(BankManagerLoginPage.java:85)
-	at com.xyxbank.tests.BankManagerLoginTest.testCustomerName(BankManagerLoginTest.java:127)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1080)
+	at com.xyxbank.pages.BankManagerLogin_OpenAccountPage.validateAlert(BankManagerLogin_OpenAccountPage.java:67)
+	at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testAlertMessage(BankManagerLogin_OpenAccountTest.java:104)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,16 +130,15 @@ Session ID: 9987325e52a612e16f9e715e08b7d393
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace902654164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace902654164'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//table[@class=&apos;table table-bordered table-striped&apos;]//tbody/tr[5]/td[1]&quot;}
+</pre></div><a href='#' onClick='toggleBox("stack-trace2050529121", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2050529121'><pre>org.openqa.selenium.NoAlertPresentException: no such alert
   (Session info: chrome=119.0.6045.160)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: &apos;4.8.1&apos;, revision: &apos;8ebccac989&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [9987325e52a612e16f9e715e08b7d393, findElement {using=xpath, value=//table[@class=&apos;table table-bordered table-striped&apos;]//tbody/tr[5]/td[1]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64229}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64229/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 9987325e52a612e16f9e715e08b7d393
+Command: [5857a833c60990107a38c93427b77dfb, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61529/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5857a833c60990107a38c93427b77dfb
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -157,15 +151,11 @@ Session ID: 9987325e52a612e16f9e715e08b7d393
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at jdk.proxy2/jdk.proxy2.$Proxy17.isDisplayed(Unknown Source)
-	at com.xyxbank.pages.BankManagerLoginPage.validateCustomerName(BankManagerLoginPage.java:85)
-	at com.xyxbank.tests.BankManagerLoginTest.testCustomerName(BankManagerLoginTest.java:127)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1080)
+	at com.xyxbank.pages.BankManagerLogin_OpenAccountPage.validateAlert(BankManagerLogin_OpenAccountPage.java:67)
+	at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testAlertMessage(BankManagerLogin_OpenAccountTest.java:104)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -195,8 +185,82 @@ Session ID: 9987325e52a612e16f9e715e08b7d393
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>0</td>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
+<tr>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testBankManagerPage()'><b>testBankManagerPage</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testBankManagerPage(BankManagerLogin_OpenAccountTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1188445627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1188445627'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertTrue(Assert.java:56)
+	at org.testng.Assert.assertTrue(Assert.java:66)
+	at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testBankManagerPage(BankManagerLogin_OpenAccountTest.java:48)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:829)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+	at org.testng.TestNG.runSuites(TestNG.java:1099)
+	at org.testng.TestNG.run(TestNG.java:1067)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -207,50 +271,35 @@ Session ID: 9987325e52a612e16f9e715e08b7d393
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testFirstName()'><b>testFirstName</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
-<td></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
-<tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testLastName()'><b>testLastName</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
-<td></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
-<tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testAddCustomerButton()'><b>testAddCustomerButton</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testOpenAccount()'><b>testOpenAccount</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
 <td></td>
 <td>0</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testPostalCode()'><b>testPostalCode</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
-<td></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
-<tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testHome()'><b>testHome</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testCustomer()'><b>testCustomer</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
 <td></td>
 <td>0</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testBankManagerLogin()'><b>testBankManagerLogin</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
-<td></td>
-<td>1</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
-<tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testAddCustomer()'><b>testAddCustomer</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testBankManagerLogin()'><b>testBankManagerLogin</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
 <td></td>
 <td>0</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testCustomers()'><b>testCustomers</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testProcess()'><b>testProcess</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
 <td></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>0</td>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 <tr>
-<td title='com.xyxbank.tests.BankManagerLoginTest.testAdd()'><b>testAdd</b><br>Test class: com.xyxbank.tests.BankManagerLoginTest</td>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testCurrency()'><b>testCurrency</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
 <td></td>
-<td>20</td>
-<td>com.xyxbank.tests.BankManagerLoginTest@663c9e7a</td></tr>
+<td>0</td>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
+<tr>
+<td title='com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testHome()'><b>testHome</b><br>Test class: com.xyxbank.tests.BankManagerLogin_OpenAccountTest</td>
+<td></td>
+<td>0</td>
+<td>com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667</td></tr>
 </table><p>
 </body>
 </html>

@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.xyxbank.tests.BankManagerLoginTest">
+      <class name="com.xyxbank.tests.BankManagerLogin_OpenAccountTest">
         <methods>
-          <include name="testCustomerName"/>
+          <include name="testBankManagerPage"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="testAlertMessage"/>
         </methods>
-      </class> <!-- com.xyxbank.tests.BankManagerLoginTest -->
+      </class> <!-- com.xyxbank.tests.BankManagerLogin_OpenAccountTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
