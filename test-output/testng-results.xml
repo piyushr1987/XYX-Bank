@@ -1,163 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-27T17:48:27 IST" name="Default suite" finished-at="2023-11-27T17:48:55 IST" duration-ms="28579">
+  <suite started-at="2023-11-28T16:34:10 IST" name="Default suite" finished-at="2023-11-28T16:34:40 IST" duration-ms="30690">
     <groups>
     </groups>
-    <test started-at="2023-11-27T17:48:27 IST" name="Default test" finished-at="2023-11-27T17:48:55 IST" duration-ms="28579">
-      <class name="com.xyxbank.tests.BankManagerLogin_OpenAccountTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:27 IST" name="setUp" finished-at="2023-11-27T17:48:53 IST" duration-ms="26246" status="PASS">
+    <test started-at="2023-11-28T16:34:10 IST" name="Default test" finished-at="2023-11-28T16:34:40 IST" duration-ms="30690">
+      <class name="com.xyxbank.tests.BankManagerLogin_CustomersTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:10 IST" name="setUp" finished-at="2023-11-28T16:34:35 IST" duration-ms="25371" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBankManagerLogin()[pri:1, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:53 IST" name="testBankManagerLogin" finished-at="2023-11-27T17:48:54 IST" duration-ms="674" status="PASS">
+        <test-method signature="testBankManagerLogin()[pri:1, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:35 IST" name="testBankManagerLogin" finished-at="2023-11-28T16:34:39 IST" duration-ms="3636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBankManagerLogin -->
-        <test-method signature="testBankManagerPage()[pri:2, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:54 IST" name="testBankManagerPage" finished-at="2023-11-27T17:48:54 IST" duration-ms="132" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:110)
-at org.testng.Assert.failNotEquals(Assert.java:1577)
-at org.testng.Assert.assertTrue(Assert.java:56)
-at org.testng.Assert.assertTrue(Assert.java:66)
-at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testBankManagerPage(BankManagerLogin_OpenAccountTest.java:48)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="testCustomersMenu()[pri:2, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:39 IST" name="testCustomersMenu" finished-at="2023-11-28T16:34:39 IST" duration-ms="590" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBankManagerPage -->
-        <test-method signature="testOpenAccount()[pri:3, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:54 IST" name="testOpenAccount" finished-at="2023-11-27T17:48:54 IST" duration-ms="516" status="PASS">
+        </test-method> <!-- testCustomersMenu -->
+        <test-method signature="testCustomers()[pri:3, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:39 IST" name="testCustomers" finished-at="2023-11-28T16:34:39 IST" duration-ms="65" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testOpenAccount -->
-        <test-method signature="testCustomer()[pri:4, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:54 IST" name="testCustomer" finished-at="2023-11-27T17:48:55 IST" duration-ms="516" status="PASS">
+        </test-method> <!-- testCustomers -->
+        <test-method signature="testCustomerName()[pri:4, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:39 IST" name="testCustomerName" finished-at="2023-11-28T16:34:40 IST" duration-ms="616" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCustomer -->
-        <test-method signature="testCurrency()[pri:5, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:55 IST" name="testCurrency" finished-at="2023-11-27T17:48:55 IST" duration-ms="116" status="PASS">
+        </test-method> <!-- testCustomerName -->
+        <test-method signature="testDelete()[pri:5, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:40 IST" name="testDelete" finished-at="2023-11-28T16:34:40 IST" duration-ms="56" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCurrency -->
-        <test-method signature="testProcess()[pri:6, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:55 IST" name="testProcess" finished-at="2023-11-27T17:48:55 IST" duration-ms="50" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testProcess -->
-        <test-method signature="testAlertMessage()[pri:7, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:55 IST" name="testAlertMessage" finished-at="2023-11-27T17:48:55 IST" duration-ms="43" status="FAIL">
-          <exception class="org.openqa.selenium.NoAlertPresentException">
-            <message>
-              <![CDATA[no such alert
-  (Session info: chrome=119.0.6045.160)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5857a833c60990107a38c93427b77dfb, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61529/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5857a833c60990107a38c93427b77dfb]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
-  (Session info: chrome=119.0.6045.160)
-Build info: version: '4.8.1', revision: '8ebccac989'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [5857a833c60990107a38c93427b77dfb, getAlertText {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 119.0.6045.160, chrome: {chromedriverVersion: 119.0.6045.105 (38c72552c5e..., userDataDir: C:\Users\PIYUSH~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61529}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61529/devtoo..., se:cdpVersion: 119.0.6045.160, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 5857a833c60990107a38c93427b77dfb
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:598)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1080)
-at com.xyxbank.pages.BankManagerLogin_OpenAccountPage.validateAlert(BankManagerLogin_OpenAccountPage.java:67)
-at com.xyxbank.tests.BankManagerLogin_OpenAccountTest.testAlertMessage(BankManagerLogin_OpenAccountTest.java:104)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:829)
-at org.testng.TestRunner.run(TestRunner.java:602)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testAlertMessage -->
-        <test-method signature="testHome()[pri:8, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:55 IST" name="testHome" finished-at="2023-11-27T17:48:55 IST" duration-ms="69" status="PASS">
+        </test-method> <!-- testDelete -->
+        <test-method signature="testHome()[pri:6, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:40 IST" name="testHome" finished-at="2023-11-28T16:34:40 IST" duration-ms="69" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHome -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.BankManagerLogin_OpenAccountTest@74e28667]" started-at="2023-11-27T17:48:55 IST" name="tearDown" finished-at="2023-11-27T17:48:55 IST" duration-ms="136" status="PASS">
+        <test-method signature="testBankManagerLoginMenu()[pri:7, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:40 IST" name="testBankManagerLoginMenu" finished-at="2023-11-28T16:34:40 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testBankManagerLoginMenu -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.xyxbank.tests.BankManagerLogin_CustomersTest@75d3a5e0]" started-at="2023-11-28T16:34:40 IST" name="tearDown" finished-at="2023-11-28T16:34:40 IST" duration-ms="182" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.xyxbank.tests.BankManagerLogin_OpenAccountTest -->
+      </class> <!-- com.xyxbank.tests.BankManagerLogin_CustomersTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -204,3 +204,11 @@
 2023-11-27 17:48:55,395 [main] INFO XYZ Bank - select currency from drop down
 2023-11-27 17:48:55,514 [main] INFO XYZ Bank - click on process
 2023-11-27 17:48:55,618 [main] INFO XYZ Bank - click on home
+2023-11-28 16:34:10,343 [main] INFO XYZ Bank - open the chrome browser
+2023-11-28 16:34:35,654 [main] INFO XYZ Bank - click on Bank Manager Login
+2023-11-28 16:34:39,880 [main] INFO XYZ Bank - customers menu is displayed on bank manager page 
+2023-11-28 16:34:39,880 [main] INFO XYZ Bank - click on customers
+2023-11-28 16:34:39,960 [main] INFO XYZ Bank - enter the name of cutomers which you want to delete
+2023-11-28 16:34:40,566 [main] INFO XYZ Bank - click on delete
+2023-11-28 16:34:40,628 [main] INFO XYZ Bank - click on home
+2023-11-28 16:34:40,741 [main] INFO XYZ Bank - Bank Manager Login menu is displayed on home page 
